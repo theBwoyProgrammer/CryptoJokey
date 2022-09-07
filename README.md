@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# To-Do List React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website presents a task organizing app which can be used on a daily basis to improve time management and planning the tasks to be done in a day.
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- REACT
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live Demo Link](): Not yet deployed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To use this project you need to clone the repository to your local machine. To do this, follow the steps below;
+1. run - git clone https://github.com/HatimDev-HE/react-todo-app.git
+2. run - cd MovieArena
+3. run - code . (to open the directory in VSCode you can change the command if you have another editor)
+4. run - npm install
+5. run - npm start (to open the localhost to the app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+To work on this project locally you need to have Node.js installed in your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+- To run this project, you need to:
+- VSCode
+- React
+- Node.JS
+- NPM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 Hatim Eddinani
 
-### `npm run eject`
+- GitHub: [@HatimDev](https://twitter.com/HatimDev)
+- Twitter: [@HatimDev-HE](https://github.com/HatimDev-HE)
+- LinkedIn: [@hatimdev](https://www.linkedin.com/in/hatimdev/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🤝 Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions, issues, and feature requests are welcome!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to check the [issues page](../../issues/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Show your support
 
-## Learn More
+Give a ⭐ if you like this project!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a ⭐️ if you like this project!
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is MIT licensed.

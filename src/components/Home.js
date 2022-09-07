@@ -4,7 +4,6 @@ import { getCrypto } from '../redux/API/fruitsfetch';
 
 const Home = () => {
   const crypto = useSelector((state) => state.crypto);
-  console.log(crypto);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCrypto());
