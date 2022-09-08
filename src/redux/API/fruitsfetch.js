@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const FETCH_CRYPTO = 'fruitsfetch/fruits/FETCH_FRUITS';
+const FETCH_CRYPTO = 'fruitsfetch/fruits/FETCH_CRYRTO';
 const BASE_URL = 'https://api2.binance.com/api/v3/ticker/24hr';
 const initialState = [];
 
@@ -20,6 +20,10 @@ export const getCrypto = createAsyncThunk(
           lastPrice: res.lastPrice,
           bidPrice: res.bidPrice,
           volume: res.volume,
+          priceChangePercent: res.priceChangePercent,
+          weightedAvgPrice: res.weightedAvgPrice,
+          quoteVolume: res.quoteVolume,
+          count: res.count,
         },
       );
       return res;

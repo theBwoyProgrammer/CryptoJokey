@@ -1,4 +1,4 @@
-# To-Do List React
+# CryptoJokey
 
 This website presents a task organizing app which can be used on a daily basis to improve time management and planning the tasks to be done in a day.
 

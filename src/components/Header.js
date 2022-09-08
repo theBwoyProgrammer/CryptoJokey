@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Details from './Details';
-import Fruits from './Home';
+import Home from './Home';
 import { Nav } from './Nav';
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
     <div>
       <Nav />
       <Routes>
-        <Route path="/" element={<Fruits />} />
+        <Route path="/" element={<Home />} />
         <Route path="/details" element={<Details />} />
       </Routes>
     </div>
