@@ -2,39 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
   body {
     font-size: calc(1.375rem + 1.5vw);
-   
-  }
-  
-  li {
-  list-style-type: none;
   }
 
-  .cryptos:nth-child(2n+0) {
+  li {
+    list-style-type: none;
+  }
+
+  .cryptos:nth-child(2n + 0) {
     background: rgb(255, 127, 148);
   }
 
   .cryptos:nth-child(2n-1) {
     background: rgb(205, 86, 105);
   }
-  
+
   .cryptos {
     /* margin-bottom: 30px; */
+
     /* margin-top: 30px; */
     padding: 20px;
   }
-  
+
   .headall {
     font-family: Georgia, Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
     padding: 30px;
     font-size: 23px;
-    background-image: linear-gradient(to right,  rgb(209, 145, 156), rgb(255, 127, 148));
+    background-image: linear-gradient(
+      to right,
+      rgb(209, 145, 156),
+      rgb(255, 127, 148)
+    );
   }
-  
+
   input {
     border: black 2px solid;
     font-family: 'Anton', sans-serif;
@@ -73,7 +77,7 @@
     font-size: 20px;
     background-color: rgb(255, 127, 148);
   }
-  
+
   .topHome {
     margin-right: 100px;
   }
@@ -84,7 +88,9 @@
 
   .cryptosdetails {
     text-align: center;
+
     /* line-height: 26px; */
+
     /* margin-top: 50px; */
   }
 
@@ -94,7 +100,11 @@
     justify-content: center;
     margin: 0;
     height: 90px;
-    background-image: linear-gradient(to right,  rgb(209, 145, 156), rgb(255, 127, 148));
+    background-image: linear-gradient(
+      to right,
+      rgb(209, 145, 156),
+      rgb(255, 127, 148)
+    );
   }
 
   .tradeRef a {
