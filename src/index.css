@@ -11,19 +11,16 @@
     list-style-type: none;
   }
 
+  .cryptos {
+    padding: 20px;
+  }
+
   .cryptos:nth-child(2n + 0) {
     background: rgb(255, 127, 148);
   }
 
   .cryptos:nth-child(2n-1) {
     background: rgb(205, 86, 105);
-  }
-
-  .cryptos {
-    /* margin-bottom: 30px; */
-
-    /* margin-top: 30px; */
-    padding: 20px;
   }
 
   .headall {
@@ -88,10 +85,6 @@
 
   .cryptosdetails {
     text-align: center;
-
-    /* line-height: 26px; */
-
-    /* margin-top: 50px; */
   }
 
   .tradeRef {
