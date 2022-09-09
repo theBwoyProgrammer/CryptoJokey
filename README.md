@@ -8,7 +8,12 @@ CryptoJokey is a website built to showcase live coin stats to crypto lovers. Thi
 
 ## Live Demo
 
-[Live Demo Link](): Not yet deployed
+[Live Demo Link](https://cryptojokey.netlify.app/)
+
+## Video Presentation
+[Presentation](): Not yet
+
+[Live Demo Link](https://cryptojokey.netlify.app/)
 
 ## Getting Started
 
