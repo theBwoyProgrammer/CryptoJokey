@@ -29,7 +29,8 @@
     font-weight: bolder;
     padding: 30px;
     font-size: 23px;
-    background-image: linear-gradient(
+    background-image:
+    linear-gradient(
       to right,
       rgb(209, 145, 156),
       rgb(255, 127, 148)
