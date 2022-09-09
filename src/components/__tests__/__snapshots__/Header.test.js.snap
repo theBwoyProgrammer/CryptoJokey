@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing  comp Nav to match snapshot 1`] = `
+<div>
+  <div
+    className="topnav"
+  >
+    <li
+      className="navHome"
+    >
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          height={30}
+          src="caret-left.svg"
+          width={30}
+        />
+      </a>
+    </li>
+    <li
+      className="topHome"
+    >
+      JokeR
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="mic.svg"
+        width={30}
+      />
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="gear.svg"
+        width={30}
+      />
+    </li>
+  </div>
+  <div
+    className="headall"
+  >
+    <header>
+      Welcome to CryptoJokey
+    </header>
+    <p
+      className="slogan"
+    >
+      ‘In crypto we roll‘
+    </p>
+  </div>
+  <div>
+    <div
+      className="headall"
+    >
+      <input
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search Jokey"
+        type="search"
+      />
+      <p
+        className="jokey-coins"
+      >
+        All Jokey Coins
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Header comp Header to match snapshot 1`] = `
+<div>
+  <div
+    className="topnav"
+  >
+    <li
+      className="navHome"
+    >
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          height={30}
+          src="caret-left.svg"
+          width={30}
+        />
+      </a>
+    </li>
+    <li
+      className="topHome"
+    >
+      JokeR
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="mic.svg"
+        width={30}
+      />
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="gear.svg"
+        width={30}
+      />
+    </li>
+  </div>
+  <div
+    className="headall"
+  >
+    <header>
+      Welcome to CryptoJokey
+    </header>
+    <p
+      className="slogan"
+    >
+      ‘In crypto we roll‘
+    </p>
+  </div>
+  <div>
+    <div
+      className="headall"
+    >
+      <input
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search Jokey"
+        type="search"
+      />
+      <p
+        className="jokey-coins"
+      >
+        All Jokey Coins
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Nav comp Nav to match snapshot 1`] = `
+Array [
+  <div
+    className="topnav"
+  >
+    <li
+      className="navHome"
+    >
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          height={30}
+          src="caret-left.svg"
+          width={30}
+        />
+      </a>
+    </li>
+    <li
+      className="topHome"
+    >
+      JokeR
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="mic.svg"
+        width={30}
+      />
+    </li>
+    <li>
+      <img
+        alt=""
+        height={30}
+        src="gear.svg"
+        width={30}
+      />
+    </li>
+  </div>,
+  <div
+    className="headall"
+  >
+    <header>
+      Welcome to CryptoJokey
+    </header>
+    <p
+      className="slogan"
+    >
+      ‘In crypto we roll‘
+    </p>
+  </div>,
+]
+`;
