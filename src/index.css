@@ -30,9 +30,11 @@
     padding: 30px;
     font-size: 23px;
     background-image:
-      linear-gradient(to right,
+      linear-gradient(
+        to right,
         rgb(209, 145, 156),
-        rgb(255, 127, 148));
+        rgb(255, 127, 148)
+      );
   }
 
   input {
@@ -56,7 +58,7 @@
     font-size: 30px;
     margin: 0;
     padding: 0;
-    font-weight: 2000px;
+    font-weight: bolder;
   }
 
   a {
@@ -92,9 +94,12 @@
     justify-content: center;
     margin: 0;
     height: 90px;
-    background-image: linear-gradient(to right,
+    background-image:
+      linear-gradient(
+        to right,
         rgb(209, 145, 156),
-        rgb(255, 127, 148));
+        rgb(255, 127, 148)
+      );
   }
 
   .tradeRef a {
