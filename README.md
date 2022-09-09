@@ -1,6 +1,6 @@
 # CryptoJokey
 
-This website presents a task organizing app which can be used on a daily basis to improve time management and planning the tasks to be done in a day.
+CryptoJokey is a website built to showcase live coin stats to crypto lovers. This app is built with React and Redux.
 
 ## Built With
 
@@ -13,8 +13,8 @@ This website presents a task organizing app which can be used on a daily basis t
 ## Getting Started
 
 To use this project you need to clone the repository to your local machine. To do this, follow the steps below;
-1. run - git clone https://github.com/HatimDev-HE/react-todo-app.git
-2. run - cd MovieArena
+1. run - git clone https://github.com/HatimDev-HE/CryptoJokey.git
+2. run - cd CryptoJokey
 3. run - code . (to open the directory in VSCode you can change the command if you have another editor)
 4. run - npm install
 5. run - npm start (to open the localhost to the app)
@@ -50,9 +50,8 @@ Give a ⭐ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Nelson Sakwa: For the origin Idea
+- [Behance](https://www.behance.net/sakwadesignstudio)
 
 ## Show your support
 

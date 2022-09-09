@@ -3,9 +3,6 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-// import Back from './Assets/caret-left.svg';
-// import gear from './Assets/gear.svg';
-// import mic from './Assets/mic.svg';
 
 const Details = () => {
   const location = useLocation();

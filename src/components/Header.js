@@ -2,8 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Details from './Details';
 import Home from './Home';
-// import mic from './Assets/mic.svg';
-// import gear from './Assets/gear.svg';
 import Nav from './Nav';
 
 function Header() {

@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { getCrypto } from '../redux/API/fruitsfetch';
 import View from './Assets/view.svg';
-// import { getCryptoId } from '../redux/details/showDetails';
 
 const Home = () => {
   const crypto = useSelector((state) => state.crypto);
