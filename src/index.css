@@ -1,25 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
 @media only screen and (max-width: 1200px){
-	body {
+  body {
     font-size: calc(1.375rem + 1.5vw);
+   
   }
   
   li {
   list-style-type: none;
   }
+
+  .cryptos:nth-child(2n+0) {
+    background: rgb(255, 127, 148);
+  }
+
+  .cryptos:nth-child(2n-1) {
+    background: rgb(205, 86, 105);
+  }
   
   .cryptos {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border: 2px solid red;
+    /* margin-bottom: 30px; */
+    /* margin-top: 30px; */
     padding: 20px;
   }
   
   .headall {
-    font-family: 'Anton', sans-serif;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 23px;
+    background-image: linear-gradient(to right,  rgb(209, 145, 156), rgb(255, 127, 148));
   }
   
   input {
@@ -27,13 +40,14 @@
     font-family: 'Anton', sans-serif;
   }
 
-  .detail-li {
-    width: 50vw;
+  .detailimg {
+    margin-left: 300px;
   }
 
   .jokey-coins {
     font-family: 'Anton', sans-serif;
     text-align: center;
+    margin-top: 20px;
   }
 
   .slogan {
@@ -44,5 +58,88 @@
     padding: 0;
     font-weight: 2000px;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 127, 148);
+  }
   
+  .topHome {
+    margin-right: 100px;
+  }
+
+  .navHome {
+    margin-right: 30px;
+  }
+
+  .cryptosdetails {
+    text-align: center;
+    /* line-height: 26px; */
+    /* margin-top: 50px; */
+  }
+
+  .tradeRef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 90px;
+    background-image: linear-gradient(to right,  rgb(209, 145, 156), rgb(255, 127, 148));
+  }
+
+  .tradeRef a {
+    color: #000;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .footerdiv {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding: 20px;
+    align-items: center;
+    background: rgb(255, 127, 148);
+    justify-content: center;
+  }
+
+  .name {
+    font-family: 'Anton', sans-serif;
+    font-size: larger;
+  }
+
+  .detailstaker {
+    background: rgb(255, 127, 148);
+    line-height: 50px;
+    padding: 20px;
+  }
+
+  .change {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
+
+  .footerdiv p {
+    text-align: center;
+  }
+
+  footer {
+    line-height: 50px;
+  }
+
+  .divider {
+    border: 2px solid #fff;
+    width: 100%;
+  }
 }

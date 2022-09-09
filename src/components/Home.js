@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { getCrypto } from '../redux/API/fruitsfetch';
-import { getCryptoId } from '../redux/details/showDetails';
+import View from './Assets/view.svg';
+// import { getCryptoId } from '../redux/details/showDetails';
 
 const Home = () => {
   const crypto = useSelector((state) => state.crypto);
@@ -12,35 +13,54 @@ const Home = () => {
       dispatch(getCrypto());
     }
   }, [dispatch]);
-
-  const getId = (e) => {
-    const detail = crypto.find((c) => c.name === e.target.id);
-    dispatch(getCryptoId(detail));
-  };
+  const [query, setQuery] = useState('');
   return (
     <div>
-      <p className="jokey-coins">All Jokey Coins</p>
+      <div className="headall">
+        <input type="search" id="search" name="search" placeholder="Search Jokey" onChange={(event) => setQuery(event.target.value)} />
+        <p className="jokey-coins">All Jokey Coins</p>
+      </div>
       <>
-        {crypto.map((crypto) => (
-          <div key={crypto.name} className="cryptos">
-            <div className="namerow">
-              <li>{crypto.name}</li>
-              <li>
-                Price Change
-                {' '}
-                {crypto.priceChange}
-              </li>
-              <li>
-                Bid Price
-                {' '}
-                {crypto.bidPrice}
-              </li>
-              <Link to="/Details" id={crypto.name} onClick={getId}>
-                View
-              </Link>
+        {crypto
+          .filter((crypto) => {
+            if (query === '') {
+              return true;
+            }
+            if (crypto.name.toLowerCase().includes(query.toLowerCase())) {
+              return true;
+            }
+            return false;
+          })
+          .map((crypto) => (
+            <div className="cryptos" key={crypto.name}>
+              <div className="namerow">
+                <li className="name">{crypto.name}</li>
+                <li className="change">
+                  Price Change:
+                  {' '}
+                  {crypto.priceChange}
+                </li>
+                <li className="change">
+                  Bid Price:
+                  {' '}
+                  {crypto.bidPrice}
+                </li>
+                <NavLink
+                  className="align-self-center arrow"
+                  to="/details"
+                  state={crypto}
+                >
+                  <p className="details">
+                    <li>
+                      <img src={View} alt="" height={30} width={30} className="detailimg" />
+                    </li>
+
+                  </p>
+                </NavLink>
+
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </>
     </div>
   );

@@ -1,50 +1,61 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { NavLink } from 'react-router-dom';
-import { getCrypto } from '../redux/API/fruitsfetch';
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable max-len */
+/* eslint-disable arrow-body-style */
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+// import Back from './Assets/caret-left.svg';
+// import gear from './Assets/gear.svg';
+// import mic from './Assets/mic.svg';
 
 const Details = () => {
-  const crypto = useSelector((state) => state.details);
-  console.log(crypto);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (crypto.length === 0) {
-      dispatch(getCrypto());
-    }
-  }, [dispatch]);
+  const location = useLocation();
+  const { state } = location;
 
   return (
     <>
-      <NavLink to="/">
-        <li>Back</li>
-      </NavLink>
-      <div className="detail-li">
-        <div key={crypto.name} className="cryptos">
-          <div className="namerow">
-            <li>{crypto.name}</li>
-            <li>
-              volume:
-              {' '}
-              {crypto.volume}
-            </li>
-            <li>
-              priceChangePercent:
-              {' '}
-              {crypto.priceChangePercent}
-            </li>
-            <li>
-              weightedAvgPrice:
-              {' '}
-              {crypto.weightedAvgPrice}
-            </li>
-            <li>
-              quoteVolume:
-              {' '}
-              {crypto.quoteVolume}
-            </li>
-          </div>
+      <div>
+        <p className="tradeRef">
+          <a href="https://www.binance.com/en">Click to Trade on Binance</a>
+        </p>
+      </div>
+      <div key={state.name} className="cryptosdetails">
+        <div className="detailstaker">
+          <li className="name">{state.name}</li>
+          <li className="change">
+            Volume:
+            {' '}
+            {state.volume}
+          </li>
+          <li className="change">
+            %PriceChange:
+            {' '}
+            {state.priceChangePercent}
+          </li>
+          <li className="change">
+            WeightedAvg:
+            {' '}
+            {state.weightedAvgPrice}
+          </li>
+          <li className="change">
+            QuoteVol:
+            {' '}
+            {state.quoteVolume}
+          </li>
         </div>
+      </div>
+      <div className="footerdiv">
+        <p>
+          This is site is to showcase the live crypto changes. Click link above above to trade on Binace.
+        </p>
+        <div className="divider"></div>
+        <footer>
+          <li>Made with 💗 by HatimDev-HE.</li>
+          <li>
+            &copy; CryptoJokey
+            {' '}
+            All Rights Reserved
+          </li>
+        </footer>
       </div>
     </>
   );
