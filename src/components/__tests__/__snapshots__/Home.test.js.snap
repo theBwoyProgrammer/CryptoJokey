@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Home comp Home to match snapshot 1`] = `
+<div>
+  <div
+    className="headall"
+  >
+    <input
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="Search Jokey"
+      type="search"
+    />
+    <p
+      className="jokey-coins"
+    >
+      All Jokey Coins
+    </p>
+  </div>
+</div>
+`;
+
+exports[`testing Nav comp Home to match snapshot 1`] = `
+<div>
+  <div
+    className="headall"
+  >
+    <input
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="Search Jokey"
+      type="search"
+    />
+    <p
+      className="jokey-coins"
+    >
+      All Jokey Coins
+    </p>
+  </div>
+</div>
+`;
+
+exports[`testing Nav comp Nav to match snapshot 1`] = `
+<div>
+  <div
+    className="headall"
+  >
+    <input
+      id="search"
+      name="search"
+      onChange={[Function]}
+      placeholder="Search Jokey"
+      type="search"
+    />
+    <p
+      className="jokey-coins"
+    >
+      All Jokey Coins
+    </p>
+  </div>
+</div>
+`;
