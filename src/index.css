@@ -152,7 +152,6 @@ footer {
   width: 100%;
 }
 
-
 @media only screen and (max-width: 1200px) {
   body {
     font-size: calc(1.375rem + 1.5vw);
