@@ -53,7 +53,6 @@ const Home = () => {
                     <li>
                       <img src={View} alt="" height={30} width={30} className="detailimg" />
                     </li>
-
                   </p>
                 </NavLink>
 
