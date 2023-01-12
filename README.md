@@ -185,6 +185,6 @@ If you like this project, don't forget to leave a star and follow me for more op
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/theBwoyProgrammer/CryptoJokey/blob/development/LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
