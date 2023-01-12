@@ -1,65 +1,190 @@
-# CryptoJokey
+<a name="readme-top"></a>
 
-CryptoJokey is a website built to showcase live coin stats to crypto lovers. This app is built with React and Redux.
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Built With
+Modify this file to match your project and remove sections that don't apply.
 
-- REACT
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Live Demo
+OPTIONAL SECTIONS:
+- FAQ
 
-[Live Demo Link](https://cryptojokey.netlify.app/)
+After you're finished please remove all the comments and instructions!
+-->
 
-## Video Presentation
-[Presentation](https://drive.google.com/file/d/1zBJDc_3NcPg_tcaEkTuZwrSbReTL1QA5/view?usp=sharing)
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="public/icons/mylogo.png" alt="logo" width="480"  height="auto" />
+  <br/>
 
-## Getting Started
+  <h3><b>CryptoJokey README</b></h3>
 
-To use this project you need to clone the repository to your local machine. To do this, follow the steps below;
-1. run - git clone https://github.com/HatimDev-HE/CryptoJokey.git
-2. run - cd CryptoJokey
-3. run - code . (to open the directory in VSCode you can change the command if you have another editor)
-4. run - npm install
-5. run - npm start (to open the localhost to the app)
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 CryptoJokey <a name="about-project"></a>
+
+> This is a mutli page app built with ReactJS, Redux and RESTful API. This project keeps track of reserved missions and rockets on the profile and adds or removes any booked service on your profile.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.reactjs.org/">ReactJS</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>API</summary>
+  <ul>
+    <li><a href="https://www.binance.com/en/binance-api">Benance API</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> This is a multi page website and it has the flollowing features;
+
+- **Tracks changes in crypto coin stats**
+- **A user can search for their preferred coin from the database**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://cryptojokey.netlify.app//)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-To work on this project locally you need to have Node.js installed in your machine.
+In order to run this project you need:
+
+- NodeJS
+- Preferred IDE
+- ReactJS
 
 ### Setup
-- To run this project, you need to:
-- VSCode
-- React
-- Node.JS
-- NPM
 
-## Authors
+Clone this repository to your desired folder:
 
-👤 Hatim Eddinani
+```sh
+  git clone https://github.com/theBwoyProgrammer/CryptoJokey.git
+  cd CryptoJokey
+```
 
-- GitHub: [@HatimDev](https://twitter.com/HatimDev)
-- Twitter: [@HatimDev-HE](https://github.com/HatimDev-HE)
-- LinkedIn: [@hatimdev](https://www.linkedin.com/in/hatimdev/)
+### Install
 
-## 🤝 Contributing
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+   You can deploy the project using vercel or any preferred hosting service provider
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Hatim Eddinani**
+
+- GitHub: [@theBwoyProgrammer](https://github.com/theBwoyProgrammer)
+- Twitter: [@the_BwoyPrgrmmr](https://twitter.com/the_BwoyPrgrmmr)
+- LinkedIn: [Hatim Eddinani](https://www.linkedin.com/in/hatimdev/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/theBwoyProgrammer/Space-X/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Nelson Sakwa: For the origin Idea
-- [Behance](https://www.behance.net/sakwadesignstudio)
+If you like this project, don't forget to leave a star and follow me for more open source projects
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- LICENSE -->
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
-This project is MIT licensed.
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
